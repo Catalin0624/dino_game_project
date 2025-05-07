@@ -1,11 +1,11 @@
 # Dino Game 🦖🌵
 
-Un joc simplu tip "endless runner" creat cu Pygame, pentru un proiect de examen.
+Un joc simplu tip endless runner creat cu Pygame, pentru un proiect de examen.
 
 ## Instrucțiuni de joc
 
-- Apasă **SPACE** pentru a începe jocul.
-- Apasă **R** pentru a reîncepe după ce ai pierdut.
+- Apasă SPACE pentru a începe jocul.
+- Apasă R pentru a reîncepe după ce ai pierdut.
 - Evită cactusii pentru a obține un scor cât mai mare.
 - Scorul tău curent și scorul maxim (High Score) sunt afișate pe ecran.
 
@@ -16,31 +16,31 @@ Un joc simplu tip "endless runner" creat cu Pygame, pentru un proiect de examen.
 
 ## Instalare și rulare
 
-1. Clonează acest repository:
+1. Instalează dependențele:
 
-```bash
-git clone https://github.com/numele-tau/dino_game.git
-cd dino_game
-```
+   pip install -r requirements.txt
 
-2. Instalează dependențele:
+2. Descarcă și extrage arhiva `assets.zip` în același folder, astfel încât să ai:
 
-```bash
-pip install -r requirements.txt
-```
+   dino_game/
+   ├── main.py
+   ├── highscore.txt
+   ├── assets/
+   │   ├── dino.png
+   │   ├── cactus.png
+   │   └── background.png
 
 3. Rulează jocul:
 
-```bash
-python main.py
-```
+   python main.py
 
 ## Fișiere
 
-- `main.py` — codul principal al jocului
-- `assets/` — imagini pentru dinozaur, cactus și fundal
-- `highscore.txt` — fișier pentru salvarea scorului maxim
+- main.py — codul principal al jocului
+- assets/ — imagini pentru dinozaur, cactus și fundal
+- highscore.txt — fișier pentru salvarea scorului maxim
+- assets.zip — arhivă ce conține imaginile jocului
 
 ---
 
-Proiect realizat pentru examen 🎓.
+Proiect realizat pentru examen 🎓
